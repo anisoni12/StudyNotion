@@ -4,6 +4,7 @@ A full-stack learning management system that enables course creation, enrollment
 
 🚀 Live Demo
 Frontend: https://study-notion-ivory-theta.vercel.app
+
 Backend API: Deployed on Railway
 
 ✨ Features
