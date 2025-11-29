@@ -25,66 +25,6 @@ Redux State Management: Efficient state handling across the application
 
 Responsive Design: Mobile-friendly interface
 
-🛠️ Tech Stack
-Frontend:
-
-React.js
-
-Redux (State Management)
-
-Tailwind CSS
-
-React Router
-
-
-Backend:
-
-Node.js
-
-Express.js
-
-MongoDB
-
-JWT Authentication
-
-
-Third-Party Services:
-
-Razorpay (Payment Gateway)
-Cloudinary (Media Storage)
-
-💻 Installation
-
-Prerequisites
-
-Node.js (v14 or higher)
-
-MongoDB
-
-npm or yarn
-
-Clone the repository: 
-
-git clone https://github.com/anisoni12/StudyNotion.git
-
-cd StudyNotion
-
-Install dependencies:
-
-Frontend: npm install
-
-Backend: 
-cd server
-npm install
-
-Run the application:
-
-Frontend: npm run dev
-
-Backend:
-
-cd server
-npm start
 
 The frontend will run on http://localhost:5173 and backend on http://localhost:4000
 
