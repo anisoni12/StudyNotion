@@ -1,6 +1,67 @@
-# StudyNotion Online Education Platform (MERN App) [Website Link](https://studynotion-frontend.vercel.app/)
+# StudyNotion - EdTech Platform
 
-![Main Page](images/mainpage.png)
+A full-stack learning management system that enables course creation, enrollment, and content delivery with integrated payment processing and media management.
+
+🚀 Live Demo
+Frontend: https://study-notion-ivory-theta.vercel.app
+Backend API: Deployed on Railway
+
+✨ Features
+
+User Authentication: Secure login and registration with JWT
+Course Management: Instructors can create, edit, and manage courses
+Student Dashboard: Track enrolled courses and progress
+Payment Integration: Razorpay payment gateway for course purchases
+Media Storage: Cloudinary integration for optimized image and video delivery
+Role-Based Access: Separate dashboards for students and instructors
+Redux State Management: Efficient state handling across the application
+Responsive Design: Mobile-friendly interface
+
+🛠️ Tech Stack
+Frontend:
+
+React.js
+Redux (State Management)
+Tailwind CSS
+React Router
+
+Backend:
+
+Node.js
+Express.js
+MongoDB
+JWT Authentication
+
+Third-Party Services:
+
+Razorpay (Payment Gateway)
+Cloudinary (Media Storage)
+
+💻 Installation
+Prerequisites
+
+Node.js (v14 or higher)
+MongoDB
+npm or yarn
+
+Clone the repository: 
+
+git clone https://github.com/anisoni12/StudyNotion.git
+cd StudyNotion
+
+Install dependencies:
+Frontend: npm install
+Backend: 
+cd server
+npm install
+
+Run the application
+Frontend: npm run dev
+Backend:
+cd server
+npm start
+
+The frontend will run on http://localhost:5173 and backend on http://localhost:4000
 
 ## Project Description
 
@@ -69,7 +130,6 @@ relevant information related to the platform.
 Here is a high-level diagram that illustrates the architecture of the StudyNotion ed-tech
 platform:
 
-![Architecture](images/architecture.png)
 
 ## Front End
 
@@ -168,7 +228,6 @@ for an ed-tech platform, with a focus on security, reliability, and ease of use.
 right frameworks, libraries, and tools, we can ensure that the platform functions smoothly
 and provides an optimal user experience for all its users.
 
-![Database Schema](images/schema.png)
 
 ## API Design
 
@@ -202,11 +261,27 @@ Sample API requests and responses:
 5. DELETE /api/courses/:id: Delete a course by ID
    * Response: A success message indicating that the course has been deleted.
 
-In conclusion, the REST API design for the StudyNotion ed-tech platform is a crucial part
-of the project. The API endpoints and their functionalities are designed to ensure seamless
-communication between the front-end and back-end of the application. By following
-RESTful principles, the API will be scalable, maintainable, and reliable. The sample API
-requests and responses provided above illustrate how each endpoint will function and
-what kind of data it will accept or return. With this API design, StudyNotion will be able to
-provide a smooth user experience while ensuring security and stability.
+   
+🚢 Deployment
+Frontend: Deployed on Vercel
 
+Automatic deployments from main branch
+Environment variables configured in Vercel dashboard
+
+Backend: Deployed on Railway
+
+Automatic deployments from main branch
+Environment variables configured in Railway dashboard
+
+👨‍💻 Author
+Anish Soni
+
+GitHub: @anisoni12
+Project Link: https://github.com/anisoni12/StudyNotion
+
+
+Thanks to all the open-source libraries used in this project
+Inspired by CodeHelp - Love Babbar
+
+
+⭐ Star this repo if you found it helpful!
