@@ -10,28 +10,43 @@ Backend API: Deployed on Railway
 ✨ Features
 
 User Authentication: Secure login and registration with JWT
+
 Course Management: Instructors can create, edit, and manage courses
+
 Student Dashboard: Track enrolled courses and progress
+
 Payment Integration: Razorpay payment gateway for course purchases
+
 Media Storage: Cloudinary integration for optimized image and video delivery
+
 Role-Based Access: Separate dashboards for students and instructors
+
 Redux State Management: Efficient state handling across the application
+
 Responsive Design: Mobile-friendly interface
 
 🛠️ Tech Stack
 Frontend:
 
 React.js
+
 Redux (State Management)
+
 Tailwind CSS
+
 React Router
+
 
 Backend:
 
 Node.js
+
 Express.js
+
 MongoDB
+
 JWT Authentication
+
 
 Third-Party Services:
 
@@ -39,26 +54,35 @@ Razorpay (Payment Gateway)
 Cloudinary (Media Storage)
 
 💻 Installation
+
 Prerequisites
 
 Node.js (v14 or higher)
+
 MongoDB
+
 npm or yarn
 
 Clone the repository: 
 
 git clone https://github.com/anisoni12/StudyNotion.git
+
 cd StudyNotion
 
 Install dependencies:
+
 Frontend: npm install
+
 Backend: 
 cd server
 npm install
 
-Run the application
+Run the application:
+
 Frontend: npm run dev
+
 Backend:
+
 cd server
 npm start
 
@@ -282,7 +306,9 @@ Project Link: https://github.com/anisoni12/StudyNotion
 
 
 Thanks to all the open-source libraries used in this project
+
 Inspired by CodeHelp - Love Babbar
+
 
 
 ⭐ Star this repo if you found it helpful!
